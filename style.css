@@ -1,0 +1,39 @@
+* { margin: 0; padding: 0; }
+body {
+	height: 100vh;
+	background-size: cover;
+}
+
+.weatherFrame{ text-align: center; }
+
+#userNotice { text-align: center; font-size: 30px; }
+
+.hidden {
+	display: none;
+}
+
+.clock {
+	text-align: center;
+	font-size: 180px;
+	font-weight: bold;
+	color:  white;
+}
+
+.todoFrame{ 
+	margin-bottom: 10px;
+}
+
+.todoButton {
+	margin: 0;
+	padding:  0;
+}
+
+.todoBody {
+	background: white;
+	border:  1px solid white;
+	border-radius: 0.25rem;
+}
+
+#todoContent {
+	text-align: center;
+}

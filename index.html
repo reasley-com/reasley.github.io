@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.4.4/css/pico.min.css">
+	<link rel="stylesheet" href="style.css">
+
+	<title>reasley</title>
+</head>
+<body>
+    <main class="container">
+    	<div class="weatherFrame grid">
+    		<div class="weather" id="weather">ㅤ</div>
+	    	<div class="city" id="city">ㅤ</div>
+    	</div>
+
+    	<div class="clock" id="clock"></div>
+
+    	<form class="grid" id="loginForm">
+    		<input id="loginInput" placeholder="Your name">
+    		<input id="loginButton" type="submit" value="Login">
+    	</form>
+    	<p id="userNotice"></p>
+
+    	<form id="todoForm">
+    		<input id="todoInput" placeholder="Your to do">
+    	</form>
+    	<p id="todoContent"></p>
+    </main>
+
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>
